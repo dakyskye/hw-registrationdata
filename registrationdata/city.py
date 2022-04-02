@@ -9,5 +9,5 @@ class City(Enum):
 
     @classmethod
     def by_id(cls, user_id):
-        ids_and_cities = {'0101': cls.TBILISI, '0102': cls.TBILISI, '0103': cls.TBILISI}
+        ids_and_cities = {'0101': cls.TBILISI, '0102': cls.KUTAISI, '0103': cls.BATUMI}
         return ids_and_cities.get(user_id, cls.OTHER)
